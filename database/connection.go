@@ -7,7 +7,7 @@ import (
 	"gorm.io/gorm"
 )
 
-var dsn string = "root:@tcp(127.0.0.1:3306)/jwt_auth?charset=utf8mb4&parseTime=True&loc=Local"
+var dsn string = "uri?charset=utf8mb4&parseTime=True&loc=Local"
 // DB connection clone
 var DB *gorm.DB
 // Connection of Database
